@@ -1,12 +1,12 @@
-*,
+/* *,
 *::before,
 *::after {
     margin: 0;
     padding: 0;
-    box-sizing: inherit;
-}
+    box-sizing: inherit; */
+/* } */
 
-html {
+/* html {
     box-sizing: border-box;
     font-size: 62.5%;
 }
@@ -59,7 +59,7 @@ main {
 main section {
     margin-top: 6rem;
     padding: 2rem;
-}
+} */
 
 footer {
     text-align: center;
