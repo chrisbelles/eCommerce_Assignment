@@ -1,37 +1,49 @@
-/* *,
+*,
 *::before,
 *::after {
     margin: 0;
     padding: 0;
-    box-sizing: inherit; */
-/* } */
-
-/* html {
-    box-sizing: border-box;
-    font-size: 62.5%;
+    box-sizing: inherit;
 }
 
-html{
+.home img {
+    float: relative;
+    margin-right: 3rem;
+    width: 1200px;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+html {
     box-sizing: border-box;
 }
 
 html {
     font-family: "Segoe UI";
-    background-color: purple;
     color: white;
     margin: 0;
 }
 
 header {
-    background-color: green;
     position: relative;
     padding: 1rem;
 }
 
 nav a {
-    color: blue;
-    font-size: 30px;
+    position: relative;
+    color: black;
+    font-size: 50px;
     text-decoration: none;
+    position: center;
+    top: 0.7rem;
+    right: 1rem;
+}
+
+nav a img {
+    size:50px;
 }
 
 nav ul {
@@ -47,7 +59,7 @@ nav li {
 }
 
 nav img {
-    position: relative;
+    position: center;
     size: 5px;
 }
 
@@ -59,11 +71,11 @@ main {
 main section {
     margin-top: 6rem;
     padding: 2rem;
-} */
+}
 
 footer {
     text-align: center;
-    background-color: darkslategrey;
+    background-color: #BF7631;
     padding: 4rem;
     position: fixed;
     width: 100%;
