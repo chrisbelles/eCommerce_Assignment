@@ -43,7 +43,7 @@ nav a {
 }
 
 nav a img {
-    size:50px;
+    size:5px;
 }
 
 nav ul {
@@ -76,8 +76,7 @@ main section {
 footer {
     text-align: center;
     background-color: #BF7631;
-    padding: 4rem;
-    position: fixed;
+    padding: 14px;
     width: 100%;
     left: 0;
     bottom: 0;
@@ -85,9 +84,9 @@ footer {
 
 .product-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, auto);
-    grid-gap: 16px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto);
+    grid-gap: 25px;
 }
 
 .product {
@@ -97,20 +96,27 @@ footer {
 }
 
 .product-image {
-    width: 128px;
-    height: 128px;
+    width: 250px;
+    height: 250px;
+    outline: .1rem solid black;
     object-fit: cover;
-    border-radius: 4px;
 }
 
-.product-name {
-    margin-top: 8px;
-    font-size: 16px;
-    font-weight: 600;
-}
-
+.product-name,
 .product-price {
-    margin-top: 8px;
-    font-size: 14px;
-    color: #888;
+    display: inline;
+    font-family: "Segoe UI";
+    color: rgb(33, 31, 31);
+    margin: 0
 }
+
+.product-description {
+    width: 250px;
+    font-family: "Segoe UI";
+    font-size: medium;
+    font-style: unset;
+    color: rgb(33, 31, 31);
+    word-wrap: break-word;
+    margin: 0
+}
+
