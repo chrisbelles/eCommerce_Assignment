@@ -7,9 +7,12 @@
 }
 
 .home img {
-    float: relative;
-    margin-right: 3rem;
-    width: 1200px;
+    position: relative;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: auto;
+    margin: auto;  
 }
 
 html {
