@@ -6,14 +6,36 @@
     box-sizing: inherit;
 }
 
-.home img {
+/* .home img {
     position: relative;
     left: 0;
     right: 0;
     width: 100%;
     height: auto;
     margin: auto;  
+} */
+
+section.home img {
+    float: right;
+    width: 100%;
+    height: 30%;
 }
+
+section.tree_image img {
+    float: right;
+    width: 25%;
+    height: auto;
+}
+
+section.p1 {
+    flex-wrap: wrap;
+    font-family: "Segoe UI";
+    color: rgb(15, 14, 14);
+    margin: 0;
+    float: left;
+    width: 100%;
+}
+
 
 html {
     box-sizing: border-box;
@@ -26,16 +48,51 @@ html {
 
 html {
     font-family: "Segoe UI";
-    color: white;
+    color: rgb(15, 14, 14);
     margin: 0;
 }
 
 header {
-    position: relative;
-    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #F5F5F5;
+}
+
+.logo-container img {
+    width: 150px;
+}
+
+nav {
+    display: flex;
+}
+
+nav ul {
+    list-style-type: none;
+    position: right;
+    top: 0.7rem;
+    right: 1rem;
+    float: right;
+}
+
+nav li {
+    display: inline;
+    margin-left: 0.5rem; 
+}
+nav img {
+    display: block;
+    margin: 0 auto;
+    size: 5px;
 }
 
 nav a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+}
+
+/* nav a {
     position: relative;
     color: black;
     font-size: 50px;
@@ -47,9 +104,9 @@ nav a {
 
 nav a img {
     size:5px;
-}
+} */
 
-nav ul {
+/* nav ul {
     list-style-type: none;
     position: left;
     top: 0.7rem;
@@ -59,12 +116,12 @@ nav ul {
 nav li {
     display: inline;
     margin-right: 0.5rem;
-}
+} */
 
-nav img {
+/* nav img {
     position: center;
     size: 5px;
-}
+} */
 
 main {
     margin: 1rem auto;
@@ -148,17 +205,19 @@ footer {
     outline: none;
     margin-top: 10px;
     margin-right: 25px;
+    font-family: "Segoe UI";
     text-decoration: underline;
     cursor: pointer;
 }
 
 .add-to-cart-btn {
+    font-family: "Segoe UI";
     background-color: #BF7631;
     color: white;
     border: none;
     padding: 5px 10px;
     margin-top: 10px;
-    margin-left: 40px;
+    margin-left: 65px;
     cursor: pointer;
 }
 
