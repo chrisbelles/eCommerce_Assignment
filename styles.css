@@ -1,19 +1,14 @@
-*,
-*::before,
-*::after {
+*, *::before, *::after {
     margin: 0;
     padding: 0;
     box-sizing: inherit;
 }
 
-/* .home img {
-    position: relative;
-    left: 0;
-    right: 0;
-    width: 100%;
-    height: auto;
-    margin: auto;  
-} */
+input[type=submit] {
+    background-image: url('path/to/magnifying-glass-image.png');
+    background-repeat: no-repeat;
+    background-position: center;
+ }
 
 section.home img {
     float: right;
@@ -40,13 +35,6 @@ section.p1 {
 html {
     box-sizing: border-box;
     font-size: 100%;
-}
-
-html {
-    box-sizing: border-box;
-}
-
-html {
     font-family: "Segoe UI";
     color: rgb(15, 14, 14);
     margin: 0;
