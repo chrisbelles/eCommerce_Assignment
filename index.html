@@ -10,151 +10,163 @@
     <body>
         <header>
             <div class="logo-container">
-                <a>CARA <img src="./assets/icons8-pottery-96.png" alt="Orange pottery icon"> CARA</a>
+                <h3>CARA <img src="./assets/icons8-pottery-96.png" alt="Orange pottery icon"> CARA</h3>
             </div>
             <nav>
                 <ul>
-                    <li>HOME</li>
-                    <li>ABOUT</li>
-                    <li>PRODUCTS</li>
-                    <li>CONTACT</li>
+                    <li><a href = #home>HOME</li></a>
+                    <li><a href = #about>ABOUT</li></a>
+                    <li><a href = #products>PRODUCTS</li></a>
+                    <li><a href = #contact>CONTACT</li></a>
                 </ul>
-            <form>
-                <input type="search" placeholder="🖤">
+            <div>
+                <input type= "text" id= "search" name= "Search" value= "">
                 <button type="submit">Search</button>
-            </form>    
+                <span><strong>Cart (0)</strong></span>
+            </div>    
             </nav>
         </header>
         <main>
-            <section class="home">
+            <section id="home">
                 <img src="./assets/earl-wilcox-y3W0CzO063w-unsplash-alt.jpg" alt="Hand shaping pottery on turn table">
-                <h1>ABOUT US</h1>
-                <section class="tree_image">
+                <div>
+                    <strong>CERAMICS</strong><br>
+                    <strong>CRAFTED BY</strong><br>
+                    <strong>HAND...</strong>
+                </div>
+                <div>
+                    <strong>...FROM THE</strong><br>
+                    <strong>GROUND UP</strong>
+                </div>
+            </section>
+            <section id="about">
+                <h2>ABOUT US</h2>
+                <hr>
+                <p>
                     <img src="./assets/Cylinder_unglazed3_2048x2048.jpg" alt="Potted tree">
-                </section>
-                <p1>
+                    <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     Proin fermentum leo vel orci porta. Posuere urna nec tincidunt praesent semper feugiat nibh. Aliquam eleifend mi in nulla posuere sollicitudin aliquam ultrices.
                     Cursus mattis molestie a iaculis at. Dui vivamus arcu felis bibendum ut tristique et egestas quis. Tincidunt praesent semper feugiat nibh sed pulvinar.
                     Tellus mauris a diam maecenas sed enim ut sem viverra.
-                </p1>
-                <!-- <p2>
+                    </p>
+                </p>
+                <br>
+                <p>
+                    <img src="./assets/Vase_Dame_2048x2048.jpg" alt="Vase with a dame flower">
+                    <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     Pellentesque massa placerat duis ultricies lacus sed. Fringilla urna porttitor rhoncus dolor.
-                </p2> -->
-            </section>
-            <section class="product-grid">
-                <div class="product">
-                    <img class="product-image" src="./assets/tom-crew-7HuTGlUfQSo-unsplash.jpg" alt="Product 1">
-                    <div class="product-info">
-                        <div class="product-name">MUNDO BOWLS</div>
-                        <div class="product-price">$48.00</div>
-                    </div>
-                    <div class="product-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                        <button class="learn-more-btn">Learn More</button>
-                        <button class="add-to-cart-btn">Add to Cart</button>
-                    </div>                   
-                </div>
-                <div class="product">
-                    <img class="product-image" src="./assets/oriento-maVIpNNtmlQ-unsplash.jpg" alt="Product 1">
-                    <div class="product-info">
-                        <div class="product-name">NATUREZA VASE</div>
-                        <div class="product-price">$37.00</div>
-                    </div>
-                    <div class="product-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                        <button class="learn-more-btn">Learn More</button>
-                        <button class="add-to-cart-btn">Add to Cart</button>
-                    </div>                   
-                </div>
-                <div class="product">
-                    <img class="product-image" src="./assets/tom-crew-bgIO-u4GEfI-unsplash.jpg" alt="Product 1">
-                    <div class="product-info">
-                        <div class="product-name">FEIRA BOWLS</div>
-                        <div class="product-price">$29.00</div>
-                    </div>
-                    <div class="product-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                        <button class="learn-more-btn">Learn More</button>
-                        <button class="add-to-cart-btn">Add to Cart</button>
-                    </div>                   
-                </div>
-                <div class="product">
-                    <img class="product-image" src="./assets/tom-crew-3uwu5K0RtaE-unsplash.jpg" alt="Product 1">
-                    <div class="product-info">
-                        <div class="product-name">NATUREZA POTS</div>
-                        <div class="product-price">$59.00</div>
-                    </div>
-                    <div class="product-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                        <button class="learn-more-btn">Learn More</button>
-                        <button class="add-to-cart-btn">Add to Cart</button>
-                    </div>                   
-                </div>
-                <div class="product">
-                    <img class="product-image" src="./assets/linh-le-a0rE64YJDA4-unsplash.jpg" alt="Product 1">
-                    <div class="product-info">
-                        <div class="product-name">PEDRA VASE</div>
-                        <div class="product-price">$31.00</div>
-                    </div>
-                    <div class="product-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                        <button class="learn-more-btn">Learn More</button>
-                        <button class="add-to-cart-btn">Add to Cart</button>
-                    </div>
-                </div>
-                <div class="product">
-                    <img class="product-image" src="./assets/tom-crew-oiZAQvxTcYQ-unsplash.jpg" alt="Product 1">
-                    <div class="product-info">
-                        <div class="product-name">VIAJA POTS</div>
-                        <div class="product-price">$57.00</div>
-                    </div>    
-                    <div class="product-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                        <button class="learn-more-btn">Learn More</button>
-                        <button class="add-to-cart-btn">Add to Cart</button>
-                    </div>
-                </div>
-                <div class="product">
-                    <img class="product-image" src="./assets/tom-crew-YA2E3d7a9Wo-unsplash.jpg" alt="Product 1">
-                    <div class="product-info">
-                        <div class="product-name">SERVIÇO PLATES</div>
-                        <div class="product-price">$35.00</div>
-                    </div>
-                    <div class="product-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                        <button class="learn-more-btn">Learn More</button>
-                        <button class="add-to-cart-btn">Add to Cart</button>
-                    </div>
-                </div>
-                <div class="product">
-                    <img class="product-image" src="./assets/oriento-l0ah3UBLppo-unsplash.jpg" alt="Product 1">
-                    <div class="product-info">
-                        <div class="product-name">CAMPEÃO VASE</div>
-                        <div class="product-price">$37.00</div>
-                    </div>
-                    <div class="product-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                        <button class="learn-more-btn">Learn More</button>
-                        <button class="add-to-cart-btn">Add to Cart</button>
-                    </div>                   
-                </div>
-                <div class="product">
-                    <img class="product-image" src="./assets/tom-crew-SITGdvztUdg-unsplash.jpg" alt="Product 1">
-                    <div class="product-info">
-                        <div class="product-name">TROCA BOWLS </div>
-                        <div class="product-price">$25.00</div>
-                    </div>
-                    <div class="product-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                        <button class="learn-more-btn">Learn More</button>
-                        <button class="add-to-cart-btn">Add to Cart</button>
-                    </div>
-                </div>
-                
-            </section>
-            <section class="about">
-                <h2>OUR PRODUCTS</h2>
-                <p>
-                    This is some text about the company. It'll give you all the
-                    information you need to know about who we are so you trust us when you
-                    buy from us.
+                    </p>
                 </p>
             </section>
+            <section id="products">
+                <h2>Our Products</h2>
+                <hr>
+                <section class="product-grid">
+                    <div class="product">
+                        <img class="product-image" src="./assets/tom-crew-7HuTGlUfQSo-unsplash.jpg" alt="Product 1">
+                        <div class="product-info">
+                            <div class="product-name">MUNDO BOWLS</div>
+                            <div class="product-price">$48.00</div>
+                        </div>
+                        <div class="product-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            <button class="learn-more-btn">Learn More</button>
+                            <button class="add-to-cart-btn">Add to Cart</button>
+                        </div>                   
+                    </div>
+                    <div class="product">
+                        <img class="product-image" src="./assets/oriento-maVIpNNtmlQ-unsplash.jpg" alt="Product 2">
+                        <div class="product-info">
+                            <div class="product-name">NATUREZA VASE</div>
+                            <div class="product-price">$37.00</div>
+                        </div>
+                        <div class="product-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            <button class="learn-more-btn">Learn More</button>
+                            <button class="add-to-cart-btn">Add to Cart</button>
+                        </div>                   
+                    </div>
+                    <div class="product">
+                        <img class="product-image" src="./assets/tom-crew-bgIO-u4GEfI-unsplash.jpg" alt="Product 3">
+                        <div class="product-info">
+                            <div class="product-name">FEIRA BOWLS</div>
+                            <div class="product-price">$29.00</div>
+                        </div>
+                        <div class="product-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            <button class="learn-more-btn">Learn More</button>
+                            <button class="add-to-cart-btn">Add to Cart</button>
+                        </div>                   
+                    </div>
+                    <div class="product">
+                        <img class="product-image" src="./assets/tom-crew-3uwu5K0RtaE-unsplash.jpg" alt="Product 4">
+                        <div class="product-info">
+                            <div class="product-name">NATUREZA POTS</div>
+                            <div class="product-price">$59.00</div>
+                        </div>
+                        <div class="product-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            <button class="learn-more-btn">Learn More</button>
+                            <button class="add-to-cart-btn">Add to Cart</button>
+                        </div>                   
+                    </div>
+                    <div class="product">
+                        <img class="product-image" src="./assets/linh-le-a0rE64YJDA4-unsplash.jpg" alt="Product 5">
+                        <div class="product-info">
+                            <div class="product-name">PEDRA VASE</div>
+                            <div class="product-price">$31.00</div>
+                        </div>
+                        <div class="product-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            <button class="learn-more-btn">Learn More</button>
+                            <button class="add-to-cart-btn">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img class="product-image" src="./assets/tom-crew-oiZAQvxTcYQ-unsplash.jpg" alt="Product 6">
+                        <div class="product-info">
+                            <div class="product-name">VIAJA POTS</div>
+                            <div class="product-price">$57.00</div>
+                        </div>    
+                        <div class="product-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            <button class="learn-more-btn">Learn More</button>
+                            <button class="add-to-cart-btn">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img class="product-image" src="./assets/tom-crew-YA2E3d7a9Wo-unsplash.jpg" alt="Product 7">
+                        <div class="product-info">
+                            <div class="product-name">SERVIÇO PLATES</div>
+                            <div class="product-price">$35.00</div>
+                        </div>
+                        <div class="product-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            <button class="learn-more-btn">Learn More</button>
+                            <button class="add-to-cart-btn">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img class="product-image" src="./assets/oriento-l0ah3UBLppo-unsplash.jpg" alt="Product 8">
+                        <div class="product-info">
+                            <div class="product-name">CAMPEÃO VASE</div>
+                            <div class="product-price">$37.00</div>
+                        </div>
+                        <div class="product-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            <button class="learn-more-btn">Learn More</button>
+                            <button class="add-to-cart-btn">Add to Cart</button>
+                        </div>                   
+                    </div>
+                    <div class="product">
+                        <img class="product-image" src="./assets/tom-crew-SITGdvztUdg-unsplash.jpg" alt="Product 9">
+                        <div class="product-info">
+                            <div class="product-name">TROCA BOWLS </div>
+                            <div class="product-price">$25.00</div>
+                        </div>
+                        <div class="product-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            <button class="learn-more-btn">Learn More</button>
+                            <button class="add-to-cart-btn">Add to Cart</button>
+                        </div>
+                    </div>
+                </section>
+            </section>
             <section>
-                <img src="./assets/icons8-pottery-96 (1).png" alt="Orange pottery icon">
+                <img src="./assets/icons8-pottery-96 (1).png" alt="White pottery icon">
                 <h3></h3>
             </section>
         </main>
