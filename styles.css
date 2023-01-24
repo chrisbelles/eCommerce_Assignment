@@ -4,27 +4,25 @@
     box-sizing: inherit;
 }
 
-section.home img {
-    float: right;
-    width: 100%;
-    height: 30%;
+.main-photo {
+    float: left;
+    size: 500px;
 }
 
-section.tree_image img {
+/* section.tree_image img {
     float: right;
     width: 25%;
     height: auto;
-}
+} */
 
-section.p1 {
+/* section.p {
     flex-wrap: wrap;
     font-family: "Segoe UI";
     color: rgb(15, 14, 14);
     margin: 0;
     float: left;
     width: 100%;
-}
-
+} */
 
 html {
     box-sizing: border-box;
@@ -35,39 +33,42 @@ html {
 }
 
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     padding: 10px 20px;
     background-color: #F5F5F5;
 }
 
-.logo-container img {
-    width: 150px;
-}
-
 nav {
     display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 0px 2%;
 }
 
 nav ul {
+    display: flex;
+    display: row;
+    justify-content: space-evenly;
     list-style-type: none;
-    position: left;
-    top: 0.7rem;
-    right: 1rem;
 }
 
 nav li {
-    float: left;
-    position: left;
+    display: flex;
+    display: row;
+    justify-content: space-evenly;
     display: inline;
     margin-left: 0.5rem; 
 }
 
-nav img {
-    display: block;
-    margin: 0 auto;
-    size: 5px;
+.logo-container{
+    display: inline-flex;
+    align-content: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo-container img {
+    width: 3rem;
+    height: 3rem;
 }
 
 nav a {
@@ -93,6 +94,11 @@ footer {
     height: 5%;
     left: 0;
     bottom: 0;
+}
+
+footer img {
+    width: 4rem;
+    height: 4rem;
 }
 
 .product-info {
@@ -182,10 +188,12 @@ footer {
     background-color: #cfcccc;
 }
 
-/* img {
-    max-width: 9%;
-} */
-
-.logo-container h3 {
-    text-align: center;
+.contact-us {
+    display: block;
+    text-align: right;
+    white-space: nowrap;
+    margin-right: 45px;
+    font-family: "Segoe UI";
+    color: rgb(33, 31, 31);
+    border-bottom: 2px solid black;
 }
